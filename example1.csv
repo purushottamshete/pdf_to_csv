@@ -1,9 +1,9 @@
-Day,Tour Name,Start Time,End Time,Duration
-1,"['*Edinburgh', 'Hop', 'On', 'Hop', 'Off']",09:00,18:00,01
-1,"['Scotch', 'Whisky', 'Experience']",15:00,17:00,1
-1,['Dinner'],18:00,19:00,1
-2,"['*Edinburgh', 'Castle']",11:00,13:00,1
-2,"['*Ghostly', 'Underground']",18:00,19:00,2
-4,"['*Urquhart', 'Castle']",11:00,12:00,01
-4,"['*Eilean', 'Donan', 'Castle']",15:00,17:00,1
-7,"['Stirling', 'Castle', 'Entrance']",12:00,14:59,2
+Day,Duration,Tour Name,Start Time,End Time
+1,01,*Edinburgh Hop On Hop Off,09:00,18:00
+1,1,Scotch Whisky Experience,15:00,17:00
+1,1,Dinner,18:00,19:00
+2,1,*Edinburgh Castle,11:00,13:00
+2,2,*Ghostly Underground,18:00,19:00
+4,01,*Urquhart Castle,11:00,12:00
+4,1,*Eilean Donan Castle,15:00,17:00
+7,2,Stirling Castle Entrance,12:00,14:59

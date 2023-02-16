@@ -29,7 +29,7 @@ for row_num, page in enumerate(pages):
         tour_line = re.search('^Tour', line)
         if tour_line:
             tour_name = tour_line.string.split(' ')[2:]
-            tour['Tour Name'] = " ".join(tour_name)
+            tour['Tour Name'] = ' '.join(tour_name)
             
         start_time_line = re.search('Start Time:', line)
         if start_time_line:
@@ -46,15 +46,7 @@ for row_num, page in enumerate(pages):
             duration= duration_line.string.split(' ')[2]
             tour['Duration'] = duration
 
-
         if len(tour) == 5:
-            tour = {
-                "Day": day_num,
-                "Tour Name": tour_name,
-                "Start Time": start_time,
-                "End Time": end_time,
-                "Duration" : duration,
-            }
             data.append(tour)
             tour={"Day": day_num}
 
